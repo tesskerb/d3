@@ -1,0 +1,94 @@
+{
+  "name": "tessk/d3",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Material",
+    "componentSet": {
+      "nav": "nav/DarkAbsoluteNav",
+      "header": "header/GradientHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Roboto, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "letterSpacing": "-0.01em"
+    },
+    "colors": {
+      "text": "#212121",
+      "background": "#fff",
+      "primary": "#2196f3",
+      "secondary": "#1565c0",
+      "highlight": "#ff4081",
+      "border": "#e0e0e0",
+      "muted": "#f5f5f5"
+    },
+    "layout": {
+      "centered": true,
+      "bannerHeight": "80vh",
+      "maxWidth": 896
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://d3js.org",
+          "text": "Home"
+        },
+        {
+          "href": "https://github.com/tessk/d3",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/d3",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "d3",
+      "subhead": "Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "d3: Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:",
+          "url": "https://d3js.org"
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "tessk",
+          "repo": "d3"
+        }
+      ],
+      "text": "v4.2.6"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1>D3: Data-Driven Documents</h1>\n<p><a href=\"https://d3js.org\"><img src=\"https://d3js.org/logo.svg\"></a></p>\n<p><strong>D3</strong> (or <strong>D3.js</strong>) is a JavaScript library for visualizing data using web standards. D3 helps you bring data to life using SVG, Canvas and HTML. D3 combines powerful visualization and interaction techniques with a data-driven approach to DOM manipulation, giving you the full capabilities of modern browsers and the freedom to design the right visual interface for your data.</p>\n<h2>Resources</h2>\n<ul>\n<li><a href=\"https://github.com/d3/d3/blob/master/API.md\">API Reference</a></li>\n<li><a href=\"https://github.com/d3/d3/releases\">Release Notes</a></li>\n<li><a href=\"https://github.com/d3/d3/wiki/Gallery\">Gallery</a></li>\n<li><a href=\"http://bl.ocks.org/mbostock\">Examples</a></li>\n<li><a href=\"https://github.com/d3/d3/wiki\">Wiki</a></li>\n</ul>\n<h2>Installing</h2>\n<p>If you use npm, <code>npm install d3</code>. Otherwise, download the <a href=\"https://github.com/d3/d3/releases/latest\">latest release</a>. The released bundle supports anonymous AMD, CommonJS, and vanilla environments. You can load directly from <a href=\"https://d3js.org\">d3js.org</a>, <a href=\"https://cdnjs.com/libraries/d3\">CDNJS</a>, or <a href=\"https://unpkg.com/d3/\">unpkg</a>. For example:</p>\n<pre><span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">script</span> <span class=\"hljs-attr\">src</span>=<span class=\"hljs-string\">&quot;https://d3js.org/d3.v4.js&quot;</span>&gt;</span><span class=\"undefined\"></span><span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">script</span>&gt;</span></pre><p>For the minified version:</p>\n<pre><span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">script</span> <span class=\"hljs-attr\">src</span>=<span class=\"hljs-string\">&quot;https://d3js.org/d3.v4.min.js&quot;</span>&gt;</span><span class=\"undefined\"></span><span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">script</span>&gt;</span></pre><p>You can also use the standalone D3 microlibraries. For example, <a href=\"https://github.com/d3/d3-selection\">d3-selection</a>:</p>\n<pre><span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">script</span> <span class=\"hljs-attr\">src</span>=<span class=\"hljs-string\">&quot;https://d3js.org/d3-selection.v1.js&quot;</span>&gt;</span><span class=\"undefined\"></span><span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">script</span>&gt;</span></pre><p>D3 is written using <a href=\"http://www.2ality.com/2014/09/es6-modules-final.html\">ES2015 modules</a>. Create a <a href=\"http://bl.ocks.org/mbostock/bb09af4c39c79cffcde4\">custom bundle using Rollup</a>, Webpack, or your preferred bundler. To import D3 into an ES2015 application, either import specific symbols from specific D3 modules:</p>\n<pre><span class=\"hljs-keyword\">import</span> {scaleLinear} <span class=\"hljs-keyword\">from</span> <span class=\"hljs-string\">&quot;d3-scale&quot;</span>;</pre><p>Or import everything into a namespace (here, <code>d3</code>):</p>\n<pre><span class=\"hljs-keyword\">import</span> * <span class=\"hljs-keyword\">as</span> d3 <span class=\"hljs-keyword\">from</span> <span class=\"hljs-string\">&quot;d3&quot;</span>;</pre>"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/tessk/d3",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/tessk",
+          "text": "tessk"
+        }
+      ]
+    }
+  ]
+}
